@@ -1,0 +1,98 @@
+#main{
+	width: 1200px;
+	height: 800px;
+	background-color: #3b5998;
+	color: white;
+
+}
+
+.header{
+	font-size: 200px;
+	font-weight: bold;
+}
+
+.little-header{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: -200px;
+}
+
+.smallest-header{
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: -50px;
+}
+
+.text1{
+	text-align: center;
+}
+
+#second{
+	float: left;
+}
+
+#first-fieldset{
+	height: 284px;
+}
+
+.field-set{
+	float: left;
+	margin: 10px;
+	padding: 10px;	
+	border-radius: 10px;
+}
+
+.input-size{
+	width: 200px;
+	height: 25px;
+}
+
+.center-text{
+	
+    position: relative;
+    text-align: center;
+}
+
+.size-form{
+	width: 200px;
+	height: 25px;
+}
+
+.size-form1{
+	width: 200px;
+	height: 29px;
+}
+
+.size-half{
+	width:100px;
+	height: 25px;
+}
+
+.text-area{
+	width: 610px;
+	height: 80px;
+}
+
+input[type=reset]{
+	width: 440px;
+	height: 67px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #3b5998;
+}
+
+input[type=submit]{
+	width: 645px;
+	height: 67px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #3b5998;
+}
+
+.buttons1{
+	margin-left: 10px;
+}
+
+.buttons2{
+	margin-left: 20px;
+}

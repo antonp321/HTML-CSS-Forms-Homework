@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="main">
+		<h1><strong><i>flight order</i></strong></h1>
+		<form method="post" action="">
+			<span class="text-from"><em>From</em></span> <span class="text-to"><em>To</em></span><br />
+			 <select class="size-form">
+			  <option value="" disabled selected>enter a city</option>	
+			  <option value="London">London</option>
+			  <option value="Rome">Rome</option>
+			  <option value="Varna">Varna</option>
+			  <option value="Sofia">Sofia</option>
+			</select> 
+			<select class="size-form">
+			  <option value="" disabled selected>enter a city</option>	
+			  <option value="London">London</option>
+			  <option value="Rome">Rome</option>
+			  <option value="Varna">Varna</option>
+			  <option value="Sofia">Sofia</option>
+			</select><br />
+			
+			<span class="text-from"><em>Departure Date</em></span> <span class="text-to"><em>Time Interval</em></span><br />
+			<input type="date" class="size-form" placeholder="09.06.2014" name="date-of-flight"/>
+			<input type="time" class="size-form-half" placeholder="00:20" name="time-start-departure"/>
+			<input type="time" class="size-form-half" placeholder="05:05" name="time-end-departure"/><br />
+			
+			<span class="text-from"><em>Departure Date</em></span> <span class="text-to"><em>Time Interval</em></span><br />
+			<input type="date" class="size-form" placeholder="13.09.2014" name="date-of-coming-back"/>
+			<input type="time" class="size-form-half" placeholder="00:20" name="time-start-back"/>
+			<input type="time" class="size-form-half" placeholder="03:50" name="time-end-back"/><br />
+			
+			<span class="text-from"><em>12+ <span class="number1">2-12</span><span class="number2"> 0-2</span></em></span> <span class="text-to"><em><span class="choose-class">Choose Class</span></em></span><br />
+			<input type="number" min="12" max="500" class="size-form-triple" value="0"/>
+			<input type="number" min="2" max="12" class="size-form-triple" value="0"/>
+			<input type="number" min="0" max="2" class="size-form-triple" value="0"/>
+			<select class="size-form">
+			  <option value="Economy">Economy</option>
+			  <option value="Business">Business</option>
+			  <option value="Vacation">Vacation</option>
+			  <option value="first-class">First Class</option>
+			</select> <br />
+			<input type="submit" value="Search" name="search-button" class="search"/>
+		</form>
+	</div>
+</body>
+</html>

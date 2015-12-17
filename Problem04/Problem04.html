@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="main">
+		<span class="text1">
+		<p class="header">fakebook</p>
+		<p class="little-header"> Registration </p>
+		<p class="smallest-header">It is safe and it's always be!</p>
+		</span>
+		
+		<form method="post" action="">
+		<div id="second">
+			<fieldset class="field-set" id="first-fieldset">
+				<legend class="center-text"> <strong>None-Importan Information</strong> </legend>
+
+				<input type="text" name="fname" placeholder="First Name" class="input-size"/>
+				<input type="text" name="lname" placeholder="Last Name" class="input-size"/><br /><br />
+				
+				<input type="email" name="email" placeholder="Email" class="input-size"/>
+				<input type="tel" name="phone" placeholder="Phone Number" class="input-size"/><br /><br />
+				
+				<input type="password" name="pass" placeholder="Your Password" class="input-size"/>
+				<input type="url" name="website" placeholder="Website" class="input-size"/><br /><br />
+				
+				<strong>Birthday</strong>  <br />
+				<input type="datetime" name="dt-time" placeholder="05/09/2014 01:58 PM" class="input-size"/><br /><br />
+				<input type="radio" name="gender" value="male"/> <strong>Male</strong> 
+				<input type="radio" name="gender" value="female"/> <strong>Female</strong> 
+				<input type="radio" name="gender" value="other"/> <strong>Other</strong> 
+				
+			</fieldset>
+			
+			<fieldset class="field-set">
+				<legend class="center-text"><strong> Importan Information *required </strong> </legend>
+					<select class="size-form1">
+					  <option value="" disabled selected>Country</option>	
+					  <option value="Bulgaria">Bulgaria</option>
+					  <option value="Italy">Italy</option>
+					  <option value="England">Belgium</option>
+					  <option value="Belgium">Belgium</option>
+					</select> 
+				<input type="text" name="villiage" placeholder="Villiage" class="size-form"/>
+				<input type="text" name="district" placeholder="District" class="size-form"/><br /><br />
+				
+				<input type="text" name="street" placeholder="Street" class="size-form"/>
+				<input type="text" name="number-str" placeholder="Nr" class="size-half"/>
+				<input type="text" name="floor" placeholder="Floor" class="size-half"/>
+				<input type="text" name="ap-nr" placeholder="Ap Nr" class="size-half"/><br /><br />
+				
+				<strong>Door Color</strong> <br />
+				<input type="color" name="door-color" value="" class="size-form1">
+				<input type="text" name="water-meter-nr" placeholder="Water Meter Nr" class="size-form"/>
+				<select class="size-form1">
+					  <option value="" disabled selected>Aunt Penies Size</option>	
+					  <option value="35">35</option>
+					  <option value="45">45</option>
+					  <option value="55">55</option>
+					  <option value="65">65</option>
+					</select><br /> 
+				
+				<strong>More personal information</strong> <br />
+				<textarea name="more-info" placeholder="Give us more info !!!" class="text-area"></textarea>
+			</fieldset><br />
+			<span class="buttons1">
+			<input type="reset" name="reset-button" value="Clear Form"/>
+			</span>
+			<span class="buttons2">
+			<input type="submit" name="submit-button" value="Register"/>
+			</span>
+		</div>	
+		</form>
+	</div>
+</body>
+</html>
